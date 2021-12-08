@@ -85,17 +85,17 @@ except:
     sys.exit(f'error: could not create {file}')
 
 body = (
-    "'''" + "\n"
-    "Author: " + NAME + "\n"
-    "Date: " + DATE + "\n\n"
-    "" + question_url + "\n\n"
-    "" + question_id + ". " + title + "\n"
-    "Difficulty: " + difficulty + "\n\n"
-    "" + question + "\n\n"
+    "'''"          + "\n"
+    "Author: "     + NAME         + "\n"
+    "Date: "       + DATE         + "\n\n"
+    ""             + question_url + "\n\n"
+    ""             + question_id  + ". "   + title + "\n"
+    "Difficulty: " + difficulty   + "\n\n"
+    ""             + question     + "\n\n"
     "Test Case:\n\n"
-    "" + test_case + "\n"
-    "'''" + "\n\n"
-    "" + python_code + "\n"
+    ""             + test_case    + "\n"
+    "'''"          + "\n\n"
+    ""             + python_code  + "\n"
 )
 
 f.write(body)
