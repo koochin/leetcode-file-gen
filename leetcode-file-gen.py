@@ -27,10 +27,10 @@ d = dict() # map question_id to question__title_slug
 
 N = 0
 for q in problems['stat_status_pairs']:
-    qid = q['stat']['question_id']
-    qslug = q['stat']['question__title_slug']
+    qid    = q['stat']['question_id']
+    qslug  = q['stat']['question__title_slug']
     d[qid] = qslug
-    N = max(N, len(str(qid)))
+    N      = max(N, len(str(qid)))
 
 if GEN_ALL_PROBLEMS:
     file = 'all_problems.txt'
