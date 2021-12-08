@@ -91,7 +91,7 @@ body = (
     "" + question_url + "\n\n"
     "" + question_id + ". " + title + "\n"
     "Difficulty: " + difficulty + "\n\n"
-    "" + question + "\n"
+    "" + question + "\n\n"
     "Test Case:\n\n"
     "" + test_case + "\n"
     "'''" + "\n\n"
